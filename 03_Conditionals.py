@@ -35,7 +35,21 @@ if discount > 0:
     print(f"Discount Applied: ₱{discount:.2f}")
 
 print(f"Final Price: ₱{final_price:.2f}")
+__________________________________________________________________________________
+Sample output:
 
+Enter table number: 1
+Enter customer name: Wigor
+Enter dish ordered: 2
+Enter quantity: 1
+Enter price per dish: 99
+Dine-in? (yes/no): yes
+
+=== Order Summary ===
+Table #1 - Wigor
+2 x 1 - ₱99.00
+Final Price: ₱99.00
+Service Type: Dine-in
 # Print dine-in status
 if dine_in:
     print("Service Type: Dine-in")
