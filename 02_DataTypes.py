@@ -14,5 +14,20 @@ total_price = quantity * price_per_dish
 # Print order summary
 print("\n=== Order Summary ===")
 print(f"Table #{table_number} - {customer_name}")
+
+________________________________________________________
+Sample output:
+
+Enter table number: 8
+Enter customer name: Wigor
+Enter dish ordered: 2
+Enter quantity: 2
+Enter price per dish: 88
+Dine-in? (yes/no): no
+
+=== Order Summary ===
+Table #8 - Wigor
+2 x 2 - ₱176.00
+Dine-in: No
 print(f"{dish_ordered} x {quantity} - ₱{total_price:.2f}")
 print(f"Dine-in: {'Yes' if dine_in else 'No'}")
