@@ -14,3 +14,15 @@ total_price = quantity * price_per_dish
 print("\n=== Order Summary ===")
 print(f"Table #{table_number} - {customer_name}")
 print(f"{dish_ordered} x {quantity} - ₱{total_price:.2f}")
+_________________________________________________________________
+output sample:
+
+Enter table number: 8
+Enter customer name: Wigor
+Enter dish ordered: 2
+Enter quantity: 2
+Enter price per dish: 88
+
+=== Order Summary ===
+Table #8 - Wigor
+2 x 2 - ₱176.00
